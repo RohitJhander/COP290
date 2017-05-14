@@ -1,0 +1,10 @@
+#ifndef MY_DEFINES_H
+#define MY_DEFINES_H
+
+#define MAX_FILE_SIZE 10048576
+#define DEFAULT_PACKET_SIZE 1024
+
+enum clientToServerMessage {LOGIN,LOGOUT,REGISTER,UPLOAD,RECIEVE_FILE,SEND_USER_FILE_LIST,NONE};
+enum serverToClientMessage {OK, NOT_OK};
+
+#endif

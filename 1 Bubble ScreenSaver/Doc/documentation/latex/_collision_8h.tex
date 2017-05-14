@@ -1,0 +1,19 @@
+\hypertarget{_collision_8h}{\section{inc/\-Collision.h File Reference}
+\label{_collision_8h}\index{inc/\-Collision.\-h@{inc/\-Collision.\-h}}
+}
+{\ttfamily \#include \char`\"{}Wall.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Ball.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_collision_8h_a6a1cf3bca9df4b9cdff131b864270b38}{void \hyperlink{_collision_8h_a6a1cf3bca9df4b9cdff131b864270b38}{check\-\_\-\-Collision\-\_\-\-With\-\_\-\-Wall} (\hyperlink{class_ball}{Ball} \&, \hyperlink{class_wall}{Wall} \&)}\label{_collision_8h_a6a1cf3bca9df4b9cdff131b864270b38}
+
+\begin{DoxyCompactList}\small\item\em Checks for a possible collision of a ball with a wall and accordingly update the velocity. \end{DoxyCompactList}\item 
+\hypertarget{_collision_8h_a118ccd139751c26b12a82ae89635ad5d}{void \hyperlink{_collision_8h_a118ccd139751c26b12a82ae89635ad5d}{check\-\_\-\-Collision\-\_\-\-With\-\_\-\-Ball} (\hyperlink{class_ball}{Ball} \&, \hyperlink{class_ball}{Ball} \&)}\label{_collision_8h_a118ccd139751c26b12a82ae89635ad5d}
+
+\begin{DoxyCompactList}\small\item\em Checks for a possible collision of two balls with each other and accordingly update the velocities of both the balls using their respective mutexes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Functions for maintaining the physics of the system. \par
+ All the collisions are elastic. 

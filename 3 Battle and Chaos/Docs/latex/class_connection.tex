@@ -1,0 +1,85 @@
+\hypertarget{class_connection}{\section{Connection Class Reference}
+\label{class_connection}\index{Connection@{Connection}}
+}
+
+
+Generic class for networking.  
+
+
+
+
+{\ttfamily \#include $<$Connection.\+hpp$>$}
+
+
+
+Inheritance diagram for Connection\+:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_connection_a0f7808de4ae1a64556ad49935a026f89}{void {\bfseries change\+Mode} (Mode m)}\label{class_connection_a0f7808de4ae1a64556ad49935a026f89}
+
+\item 
+\hypertarget{class_connection_aa960efc27b883b2bb46816026beae838}{Mode {\bfseries get\+Mode} ()}\label{class_connection_aa960efc27b883b2bb46816026beae838}
+
+\item 
+\hypertarget{class_connection_a3678c5190e941d61672fba99686ad2b0}{int {\bfseries get\+Number\+Of\+Peers} ()}\label{class_connection_a3678c5190e941d61672fba99686ad2b0}
+
+\item 
+\hypertarget{class_connection_ae4c8fcac97cd2848e4006d2310184806}{void \hyperlink{class_connection_ae4c8fcac97cd2848e4006d2310184806}{accept} (int \&, sf\+::\+Ip\+Address \&)}\label{class_connection_ae4c8fcac97cd2848e4006d2310184806}
+
+\begin{DoxyCompactList}\small\item\em Accept new connections from other players. \end{DoxyCompactList}\item 
+\hypertarget{class_connection_ab355a816174eb028f7addecc688a39b1}{void {\bfseries send} ()}\label{class_connection_ab355a816174eb028f7addecc688a39b1}
+
+\item 
+\hypertarget{class_connection_a87270f6cb729edcb5577616d28bc563f}{void {\bfseries receive} ()}\label{class_connection_a87270f6cb729edcb5577616d28bc563f}
+
+\item 
+\hypertarget{class_connection_a1f5a89be211063901d17361e5f992562}{void {\bfseries add\+Peer} (sf\+::\+Ip\+Address ip, unsigned short port, int n)}\label{class_connection_a1f5a89be211063901d17361e5f992562}
+
+\item 
+\hypertarget{class_connection_aceeafc33d745b590e3dc3129c7dd7066}{void {\bfseries add\+To\+Out\+Q} (sf\+::\+Packet packet)}\label{class_connection_aceeafc33d745b590e3dc3129c7dd7066}
+
+\item 
+\hypertarget{class_connection_ac82e6e85a7c9eb30a6990415355d5a71}{std\+::map$<$ sf\+::\+Ip\+Address, \\*
+std\+::map$<$ int, sf\+::\+Packet $>$ $>$ \& {\bfseries get\+In\+Q} ()}\label{class_connection_ac82e6e85a7c9eb30a6990415355d5a71}
+
+\item 
+\hypertarget{class_connection_aedd80a7aab0e950d3fad23e5e0c7feed}{std\+::queue$<$ sf\+::\+Ip\+Address $>$ \& {\bfseries get\+Dead\+Connection} ()}\label{class_connection_aedd80a7aab0e950d3fad23e5e0c7feed}
+
+\item 
+\hypertarget{class_connection_a7a399908579770f58ca3af78826e931a}{void {\bfseries send\+Join\+Request} (int)}\label{class_connection_a7a399908579770f58ca3af78826e931a}
+
+\item 
+\hypertarget{class_connection_a7b7d6a5cc92e8f34527c6483951c46c2}{void {\bfseries send\+Start\+Command} ()}\label{class_connection_a7b7d6a5cc92e8f34527c6483951c46c2}
+
+\item 
+\hypertarget{class_connection_ab8daba91f34149949be7b6481967538a}{void {\bfseries receive\+Start\+Command} ()}\label{class_connection_ab8daba91f34149949be7b6481967538a}
+
+\item 
+\hypertarget{class_connection_a73a9ae800c1f83a294d934ced1bff8be}{bool {\bfseries check\+Packet} (sf\+::\+Packet \&packet)}\label{class_connection_a73a9ae800c1f83a294d934ced1bff8be}
+
+\item 
+\hypertarget{class_connection_ab9b5dccdf06a8a24489daecf1670b04b}{void \hyperlink{class_connection_ab9b5dccdf06a8a24489daecf1670b04b}{establish\+P2\+P} ()}\label{class_connection_ab9b5dccdf06a8a24489daecf1670b04b}
+
+\begin{DoxyCompactList}\small\item\em Establish peer to peer connection just before going to main stage. \end{DoxyCompactList}\item 
+\hypertarget{class_connection_a12d6553fe23f62b121dd6875fb717bf1}{std\+::map$<$ sf\+::\+Ip\+Address, int $>$ \& {\bfseries get\+Team\+Map} ()}\label{class_connection_a12d6553fe23f62b121dd6875fb717bf1}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_connection_a4ecbc2b0eaeea77b40f2cc1a33441290}{unsigned int {\bfseries protocol\+I\+D}}\label{class_connection_a4ecbc2b0eaeea77b40f2cc1a33441290}
+
+\item 
+\hypertarget{class_connection_a0e79466844a23afb68662fb3fa7c8f74}{int {\bfseries counter}}\label{class_connection_a0e79466844a23afb68662fb3fa7c8f74}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic class for networking. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+inc/Connection.\+hpp\item 
+src/Connection.\+cpp\end{DoxyCompactItemize}

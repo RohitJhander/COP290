@@ -1,0 +1,25 @@
+var class_hero =
+[
+    [ "Hero", "class_hero.html#ad89699c9a56ce4096bc61a7837698ae4", null ],
+    [ "~Hero", "class_hero.html#a5aeef41ede5a80dc29c5acd7b553c4da", null ],
+    [ "fireBullet", "class_hero.html#af9aa2e4d679f904dc2de1cf93ed3e988", null ],
+    [ "get_movement_speed", "class_hero.html#aa7bf2af3b0be59df10212ff693acb437", null ],
+    [ "getAttack_speed", "class_hero.html#add43382cd5acd451f210bd39c71c369f", null ],
+    [ "getDamage", "class_hero.html#a6ae3c67dca1676a5a488c2ec1bbd8979", null ],
+    [ "getDirection", "class_hero.html#a37c1e3b13872d682281de6a6790352dd", null ],
+    [ "getHealth", "class_hero.html#ac6d7d1872ee3bd90be16c531a64d739d", null ],
+    [ "getNextPosition", "class_hero.html#aa221ca6232816a86fd86ef1c977eb0f3", null ],
+    [ "getPrice", "class_hero.html#a80064e496c8ffa18b3cdfe04435a2c05", null ],
+    [ "getRange", "class_hero.html#aabc334474f99665c8747a8eedd3c94bd", null ],
+    [ "getRotation", "class_hero.html#a5eca3766174ff219e2b25220277a965e", null ],
+    [ "isDead", "class_hero.html#a4660e87e4fc691458e6b9d4f113dc3d3", null ],
+    [ "move", "class_hero.html#a1d73bf8f019cdf000fb13a8b147230a2", null ],
+    [ "reSpawn", "class_hero.html#a823076330ee3581688e5ea7427c08e59", null ],
+    [ "set_movement_speed", "class_hero.html#a41875b39e7f93f31cd29c0c2950945b4", null ],
+    [ "setAttack_speed", "class_hero.html#a954a937eb1d539a108bfecb7eeaf3dc4", null ],
+    [ "setDamage", "class_hero.html#a90e6f4f2f96b277a66c330714af3a15b", null ],
+    [ "setHealth", "class_hero.html#a8cb823b9ef2f2f881f045376ce0962dc", null ],
+    [ "setRange", "class_hero.html#ac5f5f115db564fdf6ab718b18d4b9a21", null ],
+    [ "setRotation", "class_hero.html#a90333a509ca238dad9d20a1dfbf3db63", null ],
+    [ "update", "class_hero.html#a374195b188ba7f1cfebaecc2eeff05fc", null ]
+];
